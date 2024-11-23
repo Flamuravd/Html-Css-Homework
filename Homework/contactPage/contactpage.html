@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="contactpage.css">
+
+  <title>Contact</title>
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="../homePage/homepage.html">Home</a>
+
+        <a href="../genresPage/genrespage.html">Genres</a>
+      
+        <a href="../moviedetailsPage/moviedetailspage.html">Movie Details</a>
+      
+        <a href="../toppicksPage/toppickspage.html">Top Picks</a>
+      
+        <a href="#">Contact</a>
+        
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+    <h1>Register Here</h1>
+    <fieldset>
+      <form>
+        <label for="users-name">Name:</label>
+        <input type="text" name="name" id="users-name" required>
+
+        <br>
+
+        <label for="users-email">Email:</label>
+        <input type="email" name="email" id="users-email" required>
+
+        <br>
+
+        <label for="users-password">Password:</label>
+        <input type="password" name="password" id="users-password" required>
+
+        <br>
+
+        <label for="users-comment">Leave a comment which movie should we add:</label>
+        <br>
+
+        <textarea name="comment" id="users-comment" placeholder="Leave us a comment" cols="40" rows="10" required minlength="30" maxlength="90"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+  </main>
+
+</body>
+</html>

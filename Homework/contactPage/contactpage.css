@@ -1,0 +1,115 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: rgb(52, 26, 26);
+}
+
+header {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: right;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #7d7c7c;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+hr {
+  border-color: rgba(125, 124, 124, 0.5);
+}
+
+h1 {
+  color: #7d7c7c;
+  text-align: center;
+  font-size: 45px;
+}
+
+fieldset {
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  margin-left: 650px;
+  border: 1px solid #7d7c7c;
+}
+
+form {
+  color: #7d7c7c;
+  padding-top: 25px;
+  text-align: center;
+}
+
+form input[id="users-name"] {
+  border-radius: 18px;
+  border: 1px solid #7d7c7c;
+  background-color: rgb(52, 26, 26);
+  color: #7d7c7c;
+  margin-top: 10px;
+  margin-left: 75px;
+  padding: 10px;
+}
+
+form input[id="users-email"] {
+  border-radius: 18px;
+  border: 1px solid #7d7c7c;
+  background-color: rgb(52, 26, 26);
+  color: #7d7c7c;
+  margin-top: 10px;
+  margin-left: 75px;
+  padding: 10px;
+}
+
+form input[id="users-password"] {
+  border-radius: 18px;
+  border: 1px solid #7d7c7c;
+  background-color: rgb(52, 26, 26);
+  color: #7d7c7c;
+  margin-top: 10px;
+  margin-left: 39px;
+  padding: 10px;
+}
+
+form label[for="users-name"] {
+  font-size: 22px;
+}
+
+form label[for="users-email"] {
+  font-size: 22px;
+}
+
+form label[for="users-password"] {
+  padding-bottom: 10px;
+  font-size: 22px;
+}
+
+form label[for="users-comment"] {
+  font-size: 22px;
+  padding-top: 5px;
+}
+
+textarea {
+  margin-top: 50px;
+  width: 400px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 18px;
+  margin-top: 40px;
+  margin-left: 380px;
+  border: 2px solid black;
+  background-color: black;
+  color: #7d7c7c;
+  cursor: pointer;
+}

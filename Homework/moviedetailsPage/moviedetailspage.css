@@ -1,0 +1,921 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: rgb(52, 26, 26);
+}
+
+header {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: right;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #7d7c7c;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+hr {
+  border-color: rgba(125, 124, 124, 0.5);
+}
+
+h1 {
+  color: #7d7c7c;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2 {
+  color: #7d7c7c;
+  font-size: 40px;
+  margin-top: 140px;
+  text-align: center;
+}
+
+.img1 {
+  margin-top: 40px;
+  margin-left: 120px;
+  float: left;
+}
+
+.heading1 {
+  color: #7d7c7c;
+  margin-top: 90px;
+  margin-left: 60px;
+  font-size: 35px;
+  float: left;
+}
+
+.para1 {
+  color: #7d7c7c;
+  margin-top: 102px;
+  margin-left: 50px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading2 {
+  color: #7d7c7c;
+  margin-top: 200px;
+  margin-left: -372px;
+  font-size: 35px;
+  float: left;
+}
+
+.para2 {
+  color: #7d7c7c;
+  margin-top: 210px;
+  margin-left: -90px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading3 {
+  color: #7d7c7c;
+  margin-top: 320px;
+  margin-left: -372px;
+  font-size: 35px;
+  float: left;
+}
+
+.para3 {
+  color: #7d7c7c;
+  margin-top: 330px;
+  margin-left: -200px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading4 {
+  color: #7d7c7c;
+  margin-top: 440px;
+  margin-left: -372px;
+  font-size: 35px;
+  float: left;
+}
+
+.para4 {
+  color: #7d7c7c;
+  margin-top: 448px;
+  margin-left: -200px;
+  font-size: 20px;
+  float: left;
+}
+
+.img2 {
+  margin-top: 170px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading5 {
+  color: #7d7c7c;
+  margin-top: 200px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para5 {
+  color: #7d7c7c;
+  margin-top: 211px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading6 {
+  color: #7d7c7c;
+  margin-top: 330px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para6 {
+  color: #7d7c7c;
+  margin-top: 341px;
+  margin-left: -610px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading7 {
+  color: #7d7c7c;
+  margin-top: 470px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para7 {
+  color: #7d7c7c;
+  margin-top: 480px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading8 {
+  color: #7d7c7c;
+  margin-top: 600px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para8 {
+  color: #7d7c7c;
+  margin-top: 611px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.genre-horror {
+  color: #7d7c7c;
+  margin-top: 1550px;
+  text-align: center;
+}
+
+.img3 {
+  margin-top: 20px;
+  margin-left: 120px;
+  float: left;
+}
+
+.heading9 {
+  color: #7d7c7c;
+  margin-top: 80px;
+  margin-left: 70px;
+  font-size: 35px;
+  float: left;
+}
+
+.para9 {
+  color: #7d7c7c;
+  margin-top: 92px;
+  margin-left: 50px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading10 {
+  color: #7d7c7c;
+  margin-top: 198px;
+  margin-left: -255px;
+  font-size: 35px;
+  float: left;
+}
+
+.para10 {
+  color: #7d7c7c;
+  margin-top: 208px;
+  margin-left: 8px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading11 {
+  color: #7d7c7c;
+  margin-top: 320px;
+  margin-left: -305px;
+  font-size: 35px;
+  float: left;
+}
+
+.para11 {
+  color: #7d7c7c;
+  margin-top: 332px;
+  margin-left: -155px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading12 {
+  color: #7d7c7c;
+  margin-top: 440px;
+  margin-left: -305px;
+  font-size: 35px;
+  float: left;
+}
+
+.para12 {
+  color: #7d7c7c;
+  margin-top: 452px;
+  margin-left: -158px;
+  font-size: 20px;
+  float: left;
+}
+
+.img4 {
+  margin-top: 170px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading13 {
+  color: #7d7c7c;
+  margin-top: 200px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para13 {
+  color: #7d7c7c;
+  margin-top: 211px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading14 {
+  color: #7d7c7c;
+  margin-top: 330px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para14 {
+  color: #7d7c7c;
+  margin-top: 341px;
+  margin-left: -610px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading15 {
+  color: #7d7c7c;
+  margin-top: 470px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para15 {
+  color: #7d7c7c;
+  margin-top: 480px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading16 {
+  color: #7d7c7c;
+  margin-top: 600px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para16 {
+  color: #7d7c7c;
+  margin-top: 611px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.genre-comedy {
+  color: #7d7c7c;
+  margin-top: 1550px;
+  text-align: center;
+}
+
+.img5 {
+  margin-top: 20px;
+  margin-left: 120px;
+  float: left;
+}
+
+.heading17 {
+  color: #7d7c7c;
+  margin-top: 80px;
+  margin-left: 70px;
+  font-size: 35px;
+  float: left;
+}
+
+.para17 {
+  color: #7d7c7c;
+  margin-top: 92px;
+  margin-left: 50px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading18 {
+  color: #7d7c7c;
+  margin-top: 198px;
+  margin-left: -200px;
+  font-size: 35px;
+  float: left;
+}
+
+.para18 {
+  color: #7d7c7c;
+  margin-top: 208px;
+  margin-left: 15px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading19 {
+  color: #7d7c7c;
+  margin-top: 320px;
+  margin-left: -298px;
+  font-size: 35px;
+  float: left;
+}
+
+.para19 {
+  color: #7d7c7c;
+  margin-top: 332px;
+  margin-left: -130px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading20 {
+  color: #7d7c7c;
+  margin-top: 440px;
+  margin-left: -305px;
+  font-size: 35px;
+  float: left;
+}
+
+.para20 {
+  color: #7d7c7c;
+  margin-top: 452px;
+  margin-left: -100px;
+  font-size: 20px;
+  float: left;
+}
+
+.img6 {
+  margin-top: 170px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading21 {
+  color: #7d7c7c;
+  margin-top: 200px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para21 {
+  color: #7d7c7c;
+  margin-top: 211px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading22 {
+  color: #7d7c7c;
+  margin-top: 330px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para22 {
+  color: #7d7c7c;
+  margin-top: 341px;
+  margin-left: -610px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading23 {
+  color: #7d7c7c;
+  margin-top: 470px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para23 {
+  color: #7d7c7c;
+  margin-top: 480px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading24 {
+  color: #7d7c7c;
+  margin-top: 600px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para24 {
+  color: #7d7c7c;
+  margin-top: 611px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.genre-family {
+  color: #7d7c7c;
+  margin-top: 1550px;
+  text-align: center;
+}
+
+.img7 {
+  margin-top: 110px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading25 {
+  color: #7d7c7c;
+  margin-top: 165px;
+  margin-left: -880px;
+  font-size: 35px;
+  float: left;
+}
+
+.para25 {
+  color: #7d7c7c;
+  margin-top: 178px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading26 {
+  color: #7d7c7c;
+  margin-top: 290px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para26 {
+  color: #7d7c7c;
+  margin-top: 300px;
+  margin-left: -620px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading27 {
+  color: #7d7c7c;
+  margin-top: 410px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para27 {
+  color: #7d7c7c;
+  margin-top: 420px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading28 {
+  color: #7d7c7c;
+  margin-top: 540px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para28 {
+  color: #7d7c7c;
+  margin-top: 550px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.img8 {
+  margin-top: 170px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading29 {
+  color: #7d7c7c;
+  margin-top: 200px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para29 {
+  color: #7d7c7c;
+  margin-top: 211px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading30 {
+  color: #7d7c7c;
+  margin-top: 330px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para30 {
+  color: #7d7c7c;
+  margin-top: 341px;
+  margin-left: -610px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading31 {
+  color: #7d7c7c;
+  margin-top: 470px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para31 {
+  color: #7d7c7c;
+  margin-top: 480px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading32 {
+  color: #7d7c7c;
+  margin-top: 600px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para32 {
+  color: #7d7c7c;
+  margin-top: 611px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.genre-thriller {
+  color: #7d7c7c;
+  margin-top: 1550px;
+  text-align: center;
+}
+
+.img9 {
+  margin-top: 110px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading33 {
+  color: #7d7c7c;
+  margin-top: 165px;
+  margin-left: -880px;
+  font-size: 35px;
+  float: left;
+}
+
+.para33 {
+  color: #7d7c7c;
+  margin-top: 178px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading34 {
+  color: #7d7c7c;
+  margin-top: 290px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para34 {
+  color: #7d7c7c;
+  margin-top: 300px;
+  margin-left: -620px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading35 {
+  color: #7d7c7c;
+  margin-top: 410px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para35 {
+  color: #7d7c7c;
+  margin-top: 420px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading36 {
+  color: #7d7c7c;
+  margin-top: 540px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para36 {
+  color: #7d7c7c;
+  margin-top: 550px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.img10 {
+  margin-top: 170px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading37 {
+  color: #7d7c7c;
+  margin-top: 200px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para37 {
+  color: #7d7c7c;
+  margin-top: 211px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading38 {
+  color: #7d7c7c;
+  margin-top: 330px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para38 {
+  color: #7d7c7c;
+  margin-top: 341px;
+  margin-left: -610px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading39 {
+  color: #7d7c7c;
+  margin-top: 470px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para39 {
+  color: #7d7c7c;
+  margin-top: 480px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading40 {
+  color: #7d7c7c;
+  margin-top: 600px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para40 {
+  color: #7d7c7c;
+  margin-top: 611px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.genre-mystery {
+  color: #7d7c7c;
+  margin-top: 1550px;
+  text-align: center;
+}
+
+.img11 {
+  margin-top: 110px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading41 {
+  color: #7d7c7c;
+  margin-top: 165px;
+  margin-left: -880px;
+  font-size: 35px;
+  float: left;
+}
+
+.para41 {
+  color: #7d7c7c;
+  margin-top: 178px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading42 {
+  color: #7d7c7c;
+  margin-top: 290px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para42 {
+  color: #7d7c7c;
+  margin-top: 300px;
+  margin-left: -620px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading43 {
+  color: #7d7c7c;
+  margin-top: 410px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para43 {
+  color: #7d7c7c;
+  margin-top: 420px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading44 {
+  color: #7d7c7c;
+  margin-top: 540px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para44 {
+  color: #7d7c7c;
+  margin-top: 550px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.img12 {
+  margin-top: 170px;
+  margin-left: 115px;
+  margin-right: 950px;
+  float: left;
+}
+
+.heading45 {
+  color: #7d7c7c;
+  margin-top: 200px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para45 {
+  color: #7d7c7c;
+  margin-top: 211px;
+  margin-left: -750px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading46 {
+  color: #7d7c7c;
+  margin-top: 330px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para46 {
+  color: #7d7c7c;
+  margin-top: 341px;
+  margin-left: -610px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading47 {
+  color: #7d7c7c;
+  margin-top: 470px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para47 {
+  color: #7d7c7c;
+  margin-top: 480px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}
+
+.heading48 {
+  color: #7d7c7c;
+  margin-top: 600px;
+  margin-left: -890px;
+  font-size: 35px;
+  float: left;
+}
+
+.para48 {
+  color: #7d7c7c;
+  margin-top: 611px;
+  margin-left: -720px;
+  font-size: 20px;
+  float: left;
+}

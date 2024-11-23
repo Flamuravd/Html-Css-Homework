@@ -1,0 +1,79 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: rgb(52, 26, 26);
+}
+
+header {
+  padding-top: 35px;
+  padding-bottom: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: right;
+  justify-content: space-around;
+}
+
+nav a {
+  color: #7d7c7c;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+hr {
+  border-color: rgba(125, 124, 124, 0.5);
+}
+
+h1 {
+  color: #7d7c7c;
+  text-align: center;
+  font-size: 45px;
+  padding-top: 35px;
+}
+
+.forrestgump-img {
+  margin-left: 160px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.thegodfather-img {
+  margin-left: 160px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.gladiator-img {
+  margin-left: 160px;
+  margin-top: 30px;
+  padding-bottom: 40px;
+}
+
+.goodfellas-img {
+  margin-left: 160px;
+  margin-top: 80px;
+}
+
+.interstellar-img {
+  margin-left: 160px;
+  margin-top: 80px;
+}
+
+.thematrix-img {
+  margin-left: 160px;
+  margin-top: 80px;
+}
+
+h2 {
+  color: #7d7c7c;
+  text-align: center;
+} 
+
+a {
+  display: flex;
+  justify-content: center;
+  color: #7d7c7c;
+}
